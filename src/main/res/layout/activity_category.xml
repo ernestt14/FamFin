@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp">
+
+    <!-- Top Green Box -->
+    <View
+        android:id="@+id/top_green_box"
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:background="#b8d92a" />
+
+    <!-- Image: Logo31 -->
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="310dp"
+        android:layout_alignTop="@id/top_green_box"
+        android:src="@drawable/logo21"
+        android:contentDescription="logo3 1" />
+
+    <!-- List of Categories -->
+    <RadioGroup
+        android:id="@+id/radio_group_categories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_green_box"
+        android:padding="16dp">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:paddingLeft="15dp"
+            android:text="Bills" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:paddingLeft="15dp"
+            android:text="Food" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:paddingLeft="15dp"
+            android:text="Entertainment" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:paddingLeft="15dp"
+            android:text="Health" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:paddingLeft="15dp"
+            android:text="Shopping" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:paddingLeft="15dp"
+            android:text="Transportation" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:paddingLeft="15dp"
+            android:text="Travel" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:paddingLeft="15dp"
+            android:text="Gifts" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:paddingLeft="15dp"
+            android:text="Education" />
+    </RadioGroup>
+
+    <!-- Done Button -->
+    <Button
+        android:id="@+id/btn_done"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radio_group_categories"
+        android:layout_centerHorizontal="true"
+        android:text="Done" />
+
+    <!-- Bottom Green Box -->
+    <View
+        android:id="@+id/bottom_green_box"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:background="#b8d92a" />
+</RelativeLayout>

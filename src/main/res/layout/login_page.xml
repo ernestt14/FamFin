@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- Title Text "Log In" -->
+    <TextView
+        android:id="@+id/textLogin"
+        android:layout_width="205dp"
+        android:layout_height="34dp"
+        android:text="Log In"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginTop="77dp"
+        android:layout_marginLeft="94dp"
+        android:gravity="center" />
+
+    <!-- Label "Username" -->
+    <TextView
+        android:id="@+id/textEmail"
+        android:layout_width="91dp"
+        android:layout_height="25dp"
+        android:text="Email"
+        android:textColor="#8c8c8c"
+        android:textSize="18sp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="49dp" />
+
+    <!-- Username Input Field -->
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="321dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="225dp"
+        android:layout_marginLeft="36dp"
+        android:background="@android:color/white"
+        android:hint="Enter Email"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:paddingLeft="16dp"
+        android:inputType="text" />
+
+    <!-- Label "Password" -->
+    <TextView
+        android:id="@+id/textPassword"
+        android:layout_width="91dp"
+        android:layout_height="25dp"
+        android:text="Password"
+        android:textColor="#8c8c8c"
+        android:textSize="18sp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="49dp" />
+
+    <!-- Password Input Field -->
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="325dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="321dp"
+        android:layout_marginLeft="36dp"
+        android:background="@android:color/white"
+        android:hint="Enter Password"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:paddingLeft="16dp"
+        android:inputType="textPassword" />
+
+    <!-- Button Box (Green background with rounded corners for "Next") -->
+    <RelativeLayout
+        android:id="@+id/boxNext"
+        android:layout_width="321dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="36dp"
+        android:background="@drawable/rounded_green_bg">
+
+        <!-- Next Button Text -->
+        <TextView
+            android:id="@+id/textNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <!-- "Don't have an account? Sign Up" -->
+    <TextView
+        android:id="@+id/textNoAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account yet? Sign Up"
+        android:textColor="#007BFF"
+        android:textSize="16sp"
+        android:layout_below="@id/boxNext"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true" />
+
+    <!-- Logo Image -->
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="71dp"
+        android:layout_height="71dp"
+        android:src="@drawable/logo21"
+        android:layout_marginTop="751dp"
+        android:layout_marginLeft="161dp" />
+</RelativeLayout>

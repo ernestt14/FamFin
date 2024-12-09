@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- Background Image -->
+    <ImageView
+        android:id="@+id/imageViewBackground"
+        android:layout_width="393dp"
+        android:layout_height="428dp"
+        android:src="@drawable/img_11"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true" />
+
+    <!-- Main Title Text -->
+    <TextView
+        android:id="@+id/textViewMainTitle"
+        android:layout_width="287dp"
+        android:layout_height="64dp"
+        android:text="Track Your Income and\nExpenses Effortlessly"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="495dp"
+        android:layout_marginLeft="53dp" />
+
+    <!-- Subtitle Text -->
+    <TextView
+        android:id="@+id/textViewSubtitle"
+        android:layout_width="287dp"
+        android:layout_height="64dp"
+        android:text="Track Your Transactions Automatically Without Syncing Your Bank Account"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="566dp"
+        android:layout_marginLeft="53dp" />
+
+    <!-- Button Box (Green box with rounded corners) -->
+    <RelativeLayout
+        android:id="@+id/boxDone"
+        android:layout_width="305dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="659dp"
+        android:layout_marginLeft="44dp"
+        android:background="@drawable/rounded_green_bg">
+
+        <!-- Done Text inside the Button -->
+        <TextView
+            android:id="@+id/textDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <!-- Logo Image -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="71dp"
+        android:layout_height="71dp"
+        android:src="@drawable/logo21"
+        android:layout_marginTop="751dp"
+        android:layout_marginLeft="161dp" />
+
+</RelativeLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="393dp"
+    android:layout_height="852dp"
+    android:background="#FFFFFF">
+
+    <!-- Top Green Box -->
+    <View
+        android:layout_width="393dp"
+        android:layout_height="134dp"
+        android:layout_alignParentTop="true"
+        android:background="#b8d92a"/>
+
+    <!-- Bottom Green Box -->
+    <View
+        android:layout_width="393dp"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="33dp"
+        android:background="#b8d92a"/>
+
+    <!-- Bottom Black Box -->
+    <View
+        android:layout_width="393dp"
+        android:layout_height="33dp"
+        android:layout_alignParentBottom="true"
+        android:background="#000000"/>
+
+    <!-- Text: Bobby -->
+    <TextView
+        android:layout_width="95dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginStart="22dp"
+        android:text="Famfin"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <!-- Text: No Record -->
+    <TextView
+        android:layout_width="127dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="512dp"
+        android:layout_marginStart="135dp"
+        android:text="No Record"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <!-- Instruction Text -->
+    <TextView
+        android:layout_width="301dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="555dp"
+        android:layout_marginStart="46dp"
+        android:text="Tap the + button to add your first record"
+        android:textColor="#6b6b6b"
+        android:textSize="14sp"
+        android:gravity="center"/>
+
+    <!-- Circle Button (+) -->
+    <FrameLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="690dp"
+        android:layout_marginStart="165dp">
+
+        <ImageView
+            android:id="@+id/add_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/add"
+            android:contentDescription="Add Button"/>
+
+    </FrameLayout>
+
+    <!-- Image: Note2 -->
+    <ImageView
+        android:layout_width="142dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="324dp"
+        android:layout_marginStart="127dp"
+        android:src="@drawable/note2"
+        android:contentDescription="note 2"/>
+
+    <!-- Image: Logo31 -->
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginStart="296dp"
+        android:src="@drawable/logo21"
+        android:contentDescription="logo3 1"/>
+
+    <!-- Image: Vector1 -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="53dp"
+        android:contentDescription="Vector 1"
+        android:src="@drawable/vector1" />
+
+</RelativeLayout>
